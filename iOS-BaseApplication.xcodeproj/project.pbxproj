@@ -25,6 +25,11 @@
 		FBD459A225A5FBF900596BF5 /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD459A125A5FBF900596BF5 /* UIDevice.swift */; };
 		FBD459A725A604D700596BF5 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD459A625A604D700596BF5 /* UserDefaults.swift */; };
 		FBD459AC25A6069300596BF5 /* UniColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD459AB25A6069300596BF5 /* UniColor.swift */; };
+		FBD459B125A645B500596BF5 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD459B025A645B500596BF5 /* Array.swift */; };
+		FBD459B625A6487500596BF5 /* CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD459B525A6487500596BF5 /* CGSize.swift */; };
+		FBD459BB25A650EF00596BF5 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD459BA25A650EF00596BF5 /* UIColor.swift */; };
+		FBD459C025A6522A00596BF5 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD459BF25A6522A00596BF5 /* UIViewController.swift */; };
+		FBD459C525A6535000596BF5 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD459C425A6535000596BF5 /* UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +74,11 @@
 		FBD459A125A5FBF900596BF5 /* UIDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
 		FBD459A625A604D700596BF5 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
 		FBD459AB25A6069300596BF5 /* UniColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniColor.swift; sourceTree = "<group>"; };
+		FBD459B025A645B500596BF5 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		FBD459B525A6487500596BF5 /* CGSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGSize.swift; sourceTree = "<group>"; };
+		FBD459BA25A650EF00596BF5 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		FBD459BF25A6522A00596BF5 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		FBD459C425A6535000596BF5 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +180,11 @@
 				FBD459A125A5FBF900596BF5 /* UIDevice.swift */,
 				FBD459A625A604D700596BF5 /* UserDefaults.swift */,
 				FBD459AB25A6069300596BF5 /* UniColor.swift */,
+				FBD459B025A645B500596BF5 /* Array.swift */,
+				FBD459B525A6487500596BF5 /* CGSize.swift */,
+				FBD459BA25A650EF00596BF5 /* UIColor.swift */,
+				FBD459BF25A6522A00596BF5 /* UIViewController.swift */,
+				FBD459C425A6535000596BF5 /* UIView.swift */,
 			);
 			path = extensions;
 			sourceTree = "<group>";
@@ -309,13 +324,18 @@
 				FBD4597925A5EC6C00596BF5 /* String.swift in Sources */,
 				FBD459AC25A6069300596BF5 /* UniColor.swift in Sources */,
 				FBD4598E25A5F2A400596BF5 /* Date.swift in Sources */,
+				FBD459BB25A650EF00596BF5 /* UIColor.swift in Sources */,
 				FBD4598425A5F11D00596BF5 /* Int.swift in Sources */,
 				FBD459A225A5FBF900596BF5 /* UIDevice.swift in Sources */,
+				FBD459C025A6522A00596BF5 /* UIViewController.swift in Sources */,
+				FBD459B625A6487500596BF5 /* CGSize.swift in Sources */,
 				FBD4594725A5E70D00596BF5 /* SceneDelegate.swift in Sources */,
 				FBD4599825A5F84300596BF5 /* UIImage.swift in Sources */,
+				FBD459B125A645B500596BF5 /* Array.swift in Sources */,
 				FBD459A725A604D700596BF5 /* UserDefaults.swift in Sources */,
 				FBD4599D25A5FB0400596BF5 /* NSAttributedString.swift in Sources */,
 				FBD4598925A5F13F00596BF5 /* Double.swift in Sources */,
+				FBD459C525A6535000596BF5 /* UIView.swift in Sources */,
 				FBD4594925A5E70D00596BF5 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
