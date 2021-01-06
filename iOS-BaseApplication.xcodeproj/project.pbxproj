@@ -15,6 +15,16 @@
 		FBD4595125A5E71100596BF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD4594F25A5E71100596BF5 /* LaunchScreen.storyboard */; };
 		FBD4595C25A5E71100596BF5 /* iOS_BaseApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD4595B25A5E71100596BF5 /* iOS_BaseApplicationTests.swift */; };
 		FBD4596725A5E71100596BF5 /* iOS_BaseApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD4596625A5E71100596BF5 /* iOS_BaseApplicationUITests.swift */; };
+		FBD4597925A5EC6C00596BF5 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD4597825A5EC6C00596BF5 /* String.swift */; };
+		FBD4598425A5F11D00596BF5 /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD4598325A5F11D00596BF5 /* Int.swift */; };
+		FBD4598925A5F13F00596BF5 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD4598825A5F13F00596BF5 /* Double.swift */; };
+		FBD4598E25A5F2A400596BF5 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD4598D25A5F2A400596BF5 /* Date.swift */; };
+		FBD4599325A5F7F700596BF5 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD4599225A5F7F700596BF5 /* Bundle.swift */; };
+		FBD4599825A5F84300596BF5 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD4599725A5F84300596BF5 /* UIImage.swift */; };
+		FBD4599D25A5FB0400596BF5 /* NSAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD4599C25A5FB0400596BF5 /* NSAttributedString.swift */; };
+		FBD459A225A5FBF900596BF5 /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD459A125A5FBF900596BF5 /* UIDevice.swift */; };
+		FBD459A725A604D700596BF5 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD459A625A604D700596BF5 /* UserDefaults.swift */; };
+		FBD459AC25A6069300596BF5 /* UniColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD459AB25A6069300596BF5 /* UniColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,16 @@
 		FBD4596225A5E71100596BF5 /* iOS-BaseApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-BaseApplicationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBD4596625A5E71100596BF5 /* iOS_BaseApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_BaseApplicationUITests.swift; sourceTree = "<group>"; };
 		FBD4596825A5E71200596BF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBD4597825A5EC6C00596BF5 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		FBD4598325A5F11D00596BF5 /* Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
+		FBD4598825A5F13F00596BF5 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		FBD4598D25A5F2A400596BF5 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		FBD4599225A5F7F700596BF5 /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		FBD4599725A5F84300596BF5 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		FBD4599C25A5FB0400596BF5 /* NSAttributedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedString.swift; sourceTree = "<group>"; };
+		FBD459A125A5FBF900596BF5 /* UIDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
+		FBD459A625A604D700596BF5 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		FBD459AB25A6069300596BF5 /* UniColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +119,7 @@
 		FBD4594325A5E70D00596BF5 /* iOS-BaseApplication */ = {
 			isa = PBXGroup;
 			children = (
+				FBD4597725A5EC4300596BF5 /* extensions */,
 				FBD4594425A5E70D00596BF5 /* AppDelegate.swift */,
 				FBD4594625A5E70D00596BF5 /* SceneDelegate.swift */,
 				FBD4594825A5E70D00596BF5 /* ContentView.swift */,
@@ -134,6 +155,23 @@
 				FBD4596825A5E71200596BF5 /* Info.plist */,
 			);
 			path = "iOS-BaseApplicationUITests";
+			sourceTree = "<group>";
+		};
+		FBD4597725A5EC4300596BF5 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FBD4597825A5EC6C00596BF5 /* String.swift */,
+				FBD4598325A5F11D00596BF5 /* Int.swift */,
+				FBD4598825A5F13F00596BF5 /* Double.swift */,
+				FBD4598D25A5F2A400596BF5 /* Date.swift */,
+				FBD4599225A5F7F700596BF5 /* Bundle.swift */,
+				FBD4599725A5F84300596BF5 /* UIImage.swift */,
+				FBD4599C25A5FB0400596BF5 /* NSAttributedString.swift */,
+				FBD459A125A5FBF900596BF5 /* UIDevice.swift */,
+				FBD459A625A604D700596BF5 /* UserDefaults.swift */,
+				FBD459AB25A6069300596BF5 /* UniColor.swift */,
+			);
+			path = extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,7 +305,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBD4594525A5E70D00596BF5 /* AppDelegate.swift in Sources */,
+				FBD4599325A5F7F700596BF5 /* Bundle.swift in Sources */,
+				FBD4597925A5EC6C00596BF5 /* String.swift in Sources */,
+				FBD459AC25A6069300596BF5 /* UniColor.swift in Sources */,
+				FBD4598E25A5F2A400596BF5 /* Date.swift in Sources */,
+				FBD4598425A5F11D00596BF5 /* Int.swift in Sources */,
+				FBD459A225A5FBF900596BF5 /* UIDevice.swift in Sources */,
 				FBD4594725A5E70D00596BF5 /* SceneDelegate.swift in Sources */,
+				FBD4599825A5F84300596BF5 /* UIImage.swift in Sources */,
+				FBD459A725A604D700596BF5 /* UserDefaults.swift in Sources */,
+				FBD4599D25A5FB0400596BF5 /* NSAttributedString.swift in Sources */,
+				FBD4598925A5F13F00596BF5 /* Double.swift in Sources */,
 				FBD4594925A5E70D00596BF5 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
